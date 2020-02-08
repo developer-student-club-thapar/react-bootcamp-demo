@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 5%;
+    /* overflow: hidden; */
+}
+.subContainer {
+    display: flex;
+    width: 80%;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 0;
+    justify-content: space-between;
+    /* border: 2px black solid; */
+    max-height: 50%;
+}
+.subText {
+    max-width: 50%;
+    max-height: fit-content;
+    /* background-color: yellow; */
+    margin: auto;
+}
+img {
+    max-height: 100%;
+    margin: auto;
+    object-fit: cover;
+}
