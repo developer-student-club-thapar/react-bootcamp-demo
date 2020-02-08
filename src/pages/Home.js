@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../components/Nav";
 import CarouselComponent from "../components/Carousel";
+import Footer from "../components/Footer";
 
 class Home extends React.Component {
     render() {
@@ -15,6 +16,7 @@ class Home extends React.Component {
                 >
                     <CarouselComponent />
                 </div>
+                <Footer />
             </div>
         );
     }

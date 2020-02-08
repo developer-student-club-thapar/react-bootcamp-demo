@@ -1,3 +1,32 @@
 .carousel-img {
     margin: 'auto'
 }
+
+
+.flex-container{
+    width: 100%;
+    min-height: 300px;
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.footer-left-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container .column{
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
