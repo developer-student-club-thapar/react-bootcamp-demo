@@ -69,7 +69,19 @@ class Footer extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div class="column">Column 2</div>
+                <div class="column">
+                    <div class="footer-right">
+                        <form>
+                            <input type="text" placeholder="Name" />
+                            <input type="text" placeholder="Email" />
+                            <textarea
+                                className="textArea"
+                                placeholder="Message"
+                            ></textarea>
+                            <button className="FormButton">Submit</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         );
     }
