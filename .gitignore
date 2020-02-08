@@ -4,9 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/backend/bin
-/backend/lib
-/backend/include
+
 
 
 
