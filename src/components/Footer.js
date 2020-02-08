@@ -65,6 +65,12 @@ class Footer extends React.Component {
                                         size="2x"
                                     />
                                 </div>
+                                <div style={{margin: 10}}>
+                                    <FontAwesomeIcon
+                                        icon={faInstagram}
+                                        size="2x"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
