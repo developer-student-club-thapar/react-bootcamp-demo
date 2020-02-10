@@ -38,8 +38,7 @@ export default class FlexDemo extends Component {
                     <img
                         src="https://source.unsplash.com/random"
                         width="40%"
-                        // height="50%"
-                    ></img>
+                        height="50%"></img>
                 </div>
             </div>
         );
