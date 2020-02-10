@@ -16,7 +16,8 @@ class Home extends React.Component {
                     style={{
                         backgroundColor: "#000",
                         padding: "80px"
-                    }}>
+                    }}
+                >
                     <CarouselComponent />
                 </div>
                 <FlexDemo />
